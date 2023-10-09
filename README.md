@@ -1,5 +1,5 @@
-# C/C++ Snippets
-This extension for Visual Studio Code adds snippets for C/C++.
+# C/C++ Code Snippets
+Vscode extension for C/C++, for easy to program.
 
 ## Usage
 Type a part of the keywords in snippet e.g., "for" and press enter.
@@ -7,12 +7,13 @@ Type a part of the keywords in snippet e.g., "for" and press enter.
 ```cpp
 for // Creates a for loop snippet
 ```
+If the snippet does not appear, you can also just press <kbd>Ctrl</kbd> + <kbd>Space</kbd> (works on Windows, Linux, or Mac) to access the available snippets in the editor.
 
-Alternatively, one can also just press <kbd>Ctrl</kbd> + <kbd>Space</kbd> (works on Windows, Linux, or Mac) to access the available snippets in the editor.
 
 ## Installation
+You can  find this extension VScode extension market,  but now it's not upload in that.
 
-1. Install Visual Studio Code 0.10.1 or higher
+1. Install Visual Studio Code
 2. Launch VS Code
 3. From the command palette `Ctrl`+`Shift`+`P` (Windows, Linux) or `Cmd`+`Shift`+`P` (OSX)
 4. Type `ext install` or just simply select `Install Extension`
@@ -20,4 +21,13 @@ Alternatively, one can also just press <kbd>Ctrl</kbd> + <kbd>Space</kbd> (works
 6. Relaunch VS Code
 
 
-*Suggestions for improvement are welcome.*
+## Develop
+If you want develop this extension, please also add Chinese express in snippets.
+e.g: "Algo": {
+		"prefix": "算法",
+		"body": [
+			" 算法"，
+		],
+		"description": "Code snippet for 算法 statement"
+	},
+
