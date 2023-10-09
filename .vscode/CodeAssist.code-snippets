@@ -221,7 +221,7 @@
             "int findMin(int arr[], int n) {",
             "    if (n <= 0) {",
             "        // 处理无效输入",
-            "        printf(error);",
+            "        printf("error");",
             "        return -1; // 返回一个标志值表示错误",
             "    }",
             "",
@@ -245,7 +245,7 @@
             "int findMin(int arr[], int n) {",
             "    if (n <= 0) {",
             "        // 处理无效输入",
-            "        printf(error);",
+            "        printf("error");",
             "        return -1; // 返回一个标志值表示错误",
             "    }",
             "",
@@ -398,12 +398,12 @@
         "body": [
             "void findDuplicates(int arr[], int n) {",
             "    int i, j;",
-            "    printf(重复元素：%d);",
+            "    printf("重复元素：\n");",
             "    ",
             "    for (i = 0; i < n - 1; i++) {",
             "        for (j = i + 1; j < n; j++) {",
             "            if (arr[i] == arr[j]) {",
-            "                printf(%d, arr[i]);",
+            "                printf("%d\n", arr[i]);",
             "            }",
             "        }",
             "    }",
@@ -416,12 +416,12 @@
         "body": [
             "void findDuplicates(int arr[], int n) {",
             "    int i, j;",
-            "    printf(重复元素：%d);",
+            "    printf("重复元素：\n");",
             "    ",
             "    for (i = 0; i < n - 1; i++) {",
             "        for (j = i + 1; j < n; j++) {",
             "            if (arr[i] == arr[j]) {",
-            "                printf(%d, arr[i]);",
+            "                printf("%d\n", arr[i]);",
             "            }",
             "        }",
             "    }",
@@ -435,5 +435,5 @@
             "expamle ${expamle}"
         ],
         "description": "Code snippet for expamle"
-    }
+    },
 }
