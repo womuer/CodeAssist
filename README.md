@@ -20,12 +20,10 @@ You can  find this extension VScode extension market,  but now it's not upload i
 5. Choose the extension - CodeAssist Snippets
 6. Relaunch VS Code
 
-Also,
-you can use vsix  to install this extension:
-npm install -g @vscode/vsce
-$ cd myExtension
-$ vsce package
-
+Also you can use vsix  to install this extension:
+1. npm install -g @vscode/vsce
+2. cd myExtension
+3. vsce package
 ## Develop
 If you want develop this extension, please also add Chinese express in snippets.
 e.g: "Algo": {
