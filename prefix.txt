@@ -1,42 +1,3 @@
-# C/C++ Code Snippets
-Vscode extension for C/C++, for easy to program.
-
-# Github
-https://github.com/womuer/CodeAssist/tree/master
-## Usage
-Type a part of the keywords in snippet e.g., "for" and press enter.
-
-```c
-for // Creates a for loop snippet
-```
-If the snippet does not appear, you can also just press <kbd>Ctrl</kbd> + <kbd>Space</kbd> (works on Windows, Linux, or Mac) to access the available snippets in the editor.
-
-
-## Installation
-You can  find this extension VScode extension market,  but now it's not upload in that.
-
-1. Install Visual Studio Code
-2. Launch VS Code
-3. From the command palette `Ctrl`+`Shift`+`P` (Windows, Linux) or `Cmd`+`Shift`+`P` (OSX)
-4. Type `ext install` or just simply select `Install Extension`
-5. Choose the extension - CodeAssist Snippets
-6. Relaunch VS Code
-
-Also you can use vsix  to install this extension:
-1. npm install -g @vscode/vsce
-2. cd myExtension
-3. vsce package
-## Develop
-If you want develop this extension, please also add Chinese express in snippets.
-e.g: "Algo": {
-    prefix": "算法",
-        "body": [
-            " 算法"，
-        ],
-        "description": "Code snippet for 算法 statement"
-}
-## Snippets
-
          "for",
          "forr",
          "while",
@@ -90,8 +51,24 @@ e.g: "Algo": {
          "链表删除给定值",
          "listReverseList",
          "链表反转",
+         "arrUniqueOccurrences",
+         "数组元素是否唯一",
+         "arrMaxSubarray",
+         "数组最大子数组和",
+         "strIsPalindrome",
+         "字符串回文判断",
+         "strRomanToInt",
+         "字符串罗马数字转int",
+         "arrSingleNumber",
+         "数组只出现一次的数",
+         "listDetectCycle",
+         "链表存在环",
+         "arr2divideFindMin",
+         "数组二分法查找最小值",
+         "arrThreeSumClosest",
+         "数组最接近目标的值",
+         "performFFT",
+         "傅里叶变换",
+         "KalmanFilter",
+         "卡尔曼滤波器",
          "switch",
-
-
-
-

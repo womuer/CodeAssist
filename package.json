@@ -1,7 +1,7 @@
 {
     "name": "CodeAssistSnippets",
     "publisher": "Omer",
-    "displayName": "C/C++ Snippets",
+    "displayName": "CodeAssist Snippets",
     "description": "Code snippets for C/C++",
     "version": "0.0.1",
     "engines": {
@@ -30,6 +30,6 @@
         "type": "git",
         "url": "https://github.com/womuer/CodeAssist.git"
     },
-    "icon": "images/cpp.png",
+    "icon": "images/CodeAssist.jpg",
     "license": "Check in License in the root folder"
 }
