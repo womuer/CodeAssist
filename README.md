@@ -90,7 +90,27 @@ e.g: "Algo": {
          "链表删除给定值",
          "listReverseList",
          "链表反转",
-         "switch",
+         "arrUniqueOccurrences",
+         "数组元素是否唯一",
+         "arrMaxSubarray",
+         "数组最大子数组和",
+         "strIsPalindrome",
+         "字符串回文判断",
+         "strRomanToInt",
+         "字符串罗马数字转int",
+         "arrSingleNumber",
+         "数组只出现一次的数",
+         "listDetectCycle",
+         "链表存在环",
+         "arr2divideFindMin",
+         "数组二分法查找最小值",
+         "arrThreeSumClosest",
+         "数组最接近目标的值",
+         "performFFT",
+         "傅里叶变换",
+         "KalmanFilter",
+         "卡尔曼滤波器",
+
 
 
 
