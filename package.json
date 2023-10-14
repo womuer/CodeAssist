@@ -1,7 +1,7 @@
 {
     "name": "CodeAssistSnippets",
     "publisher": "Omer",
-    "displayName": "C/C++ Snippets",
+    "displayName": "CodeAssist Snippets",
     "description": "Code snippets for C/C++",
     "version": "0.0.1",
     "engines": {
