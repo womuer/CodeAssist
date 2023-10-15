@@ -1,0 +1,178 @@
+for
+forr
+while
+if
+else
+else
+if
+enum
+ifdef
+ifndef
+if
+struct
+switch
+union
+inc
+inc
+def
+def
+arrBubblesort
+arrFindminarr
+arrSelectionSort
+arrQuickSort
+arrfindDuplicates
+arrFindMaxAndMin
+arrMergeSortedArrays
+arrCountElement
+arrElemSum
+arrCalculateMedian
+runStateMachine
+listRemoveNthFromEnd
+N
+reverseBits
+uint
+hammingWeight
+isValidBrackets
+bitwiseAnd
+listRemoveValElements
+listReverseList
+arrUniqueOccurrences
+arrMaxSubarray
+strIsPalindrome
+strRomanToInt
+int
+arrSingleNumber
+listDetectCycle
+arr
+divideFindMin
+arrThreeSumClosest
+performFFT
+KalmanFilter
+arrMajorityElement
+arrMaximumUniqueSubarray
+strHalvesAreAlike
+bSTIterator
+algoMaxIceCream
+arrContainsDuplicate
+algoMaximumBags
+algominPathCost
+algoisPowerOfTwo
+isAnagram
+arrRemoveDuplicates
+arrRemoveElement
+strFindSubStr
+fills
+overlap
+with
+longest
+proper
+prefix
+which
+is
+also
+suffix
+for
+each
+index
+fills
+overlap
+with
+longest
+proper
+prefix
+which
+is
+also
+suffix
+for
+each
+index
+switch
+         "",
+         "",
+         "",
+         "",
+         "",
+         " ",
+         "",
+         "#",
+         "#",
+         "#",
+         "",
+         "",
+         "",
+         "#",
+         "#<",
+         "#",
+         "#",
+         "",
+         "数组冒泡排序",
+         "",
+         "数组查找数组最小值",
+         "",
+         "数组选择排序",
+         "",
+         "数组快速排序",
+         "",
+         "数组查找重复元素",
+         "",
+         "数组查找最大值和最小值",
+         "",
+         "数组合并两个有序数组",
+         "",
+         "数组计数元素出现次数",
+         "",
+         "数组求和",
+         "",
+         "数组查找中位数",
+         "",
+         "状态机",
+         "",
+         "链表删除倒数第个节点",
+         "",
+         "位反转32",
+         "",
+         "求二进制1的个数",
+         "",
+         "检查括号配对",
+         "",
+         "位与",
+         "",
+         "链表删除给定值",
+         "",
+         "链表反转",
+         "",
+         "数组元素是否唯一",
+         "",
+         "数组最大子数组和",
+         "",
+         "字符串回文判断",
+         "",
+         "字符串罗马数字转",
+         "",
+         "数组只出现一次的数",
+         "",
+         "链表存在环",
+         "2",
+         "数组二分法查找最小值",
+         "",
+         "数组最接近目标的值",
+         "",
+         "傅里叶变换",
+         "",
+         "卡尔曼滤波器",
+         "",
+         "数组多数投票算法",
+         "数组查找数组中的具有最大唯一元素和的子数组",
+         "字符串前半部分和后半部分是否包含相同数量的元素",
+         "二叉搜索树迭代升序遍历",
+         "算法贪心算法",
+         "数组是否包含重复元素",
+         "算法背包的容量限制",
+         "算法最短路径成本",
+         "算法是否是2的幂",
+         "算法字母异位词",
+         "数组删除重复元素",
+         "数组删除元素",
+         "字符串查找字串",
+         "",

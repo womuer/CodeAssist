@@ -3,7 +3,7 @@
     "publisher": "Omer",
     "displayName": "CodeAssist Snippets",
     "description": "Code snippets for C/C++",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "engines": {
 		"vscode": "^1.78.2"
 	},
