@@ -95,6 +95,25 @@ e.g: "Algo": {
         arrRemoveDuplicates
         arrRemoveElement
         strFindSubStr
+        arrmoveZeroes
+        strlengthOfLongestSubstring
+        strlongestValidParentheses
+        strreverseString
+        arrsearchInsert
+        isPerfectSquare
+        algosolveSudoku
+        strfirstUniqChar
+        strfindTheDifference
+        algotrap
+        strcountSegments
+        algoBFSjumpGame
+        BFS
+        bithammingDistance
+        bitfindComplement
+        floatPow
+        strdetectCapitalUse
+        arrayPairSum
+        algotrimBST
         "数组冒泡排序",
         "数组查找数组最小值",
         "数组选择排序",
@@ -136,6 +155,24 @@ e.g: "Algo": {
          "数组删除重复元素",
          "数组删除元素",
          "字符串查找字串",
+          "数组将零移至数组末尾",
+         "字符串最长无重复子串",
+         "字符串最长括号有效子串",
+         "字符串反转",
+         "字符串插入查找",
+         "数判断是否为完美平方",
+         "算法数独问题",
+         "字符串第一个不重复的元素",
+         "字符串匹配",
+         "算法接雨水问题",
+         "字符串计算单词数",
+         "算法跳跃问题",
+         "二进制表示中有多少位不同",
+         "补数",
+         "算法浮点数幂计算",
+         "字符串检查大小写",
+         "数组分割查找两两配对元素最小值",
+         "算法二叉搜索树修剪函数",
 
 
 
