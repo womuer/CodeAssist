@@ -114,6 +114,14 @@ e.g: "Algo": {
         strdetectCapitalUse
         arrayPairSum
         algotrimBST
+        "compareTimeStrings",
+        "compareTimeWithCurrentTime",
+        "strfindStringInArray",
+        "strremoveSpaces",
+        "strlen",
+        "strcmp",
+        "sprintf",
+
         "数组冒泡排序",
         "数组查找数组最小值",
         "数组选择排序",
@@ -173,6 +181,13 @@ e.g: "Algo": {
          "字符串检查大小写",
          "数组分割查找两两配对元素最小值",
          "算法二叉搜索树修剪函数",
+                  "比较两个时间字符串",
+         "时间字符串和当前时间作比较",
+         "字符串数组中匹配字符串",
+         "字符串移除空格",
+         "字符串长度",
+         "字符串比较",
+
 
 
 

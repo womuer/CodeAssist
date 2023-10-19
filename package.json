@@ -3,7 +3,7 @@
     "publisher": "Omer",
     "displayName": "CodeAssist Snippets",
     "description": "Code snippets for C/C++",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "engines": {
 		"vscode": "^1.78.2"
 	},
@@ -19,10 +19,14 @@
 			{
 			"language": "cpp",
 			"path": "./snippets/cpp.json"
-			}
+			},
             {
                 "language": "c",
                 "path": "./snippets/c_time.json"
+            },
+            {
+                "language": "shellscript",
+                "path": "./snippets/bash_cn.json"
             }
 		]
 	},
