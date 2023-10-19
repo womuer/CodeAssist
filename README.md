@@ -199,6 +199,357 @@ e.g: "Algo": {
          "时间与当前时间差值",
 
 
+## bash Snippets
+bash archive compress tar.gz
+bash archive tar.gz
+bash archive compress tar.xz
+bash archive tar.xz
+bash archive compress .zip
+bash archive zip
+bash archive decompress tar.gz
+bash decompress tar.gz
+bash archive decompress tar.xz
+bash decompress tar.xz
+bash archive decompress .zip
+bash archive unzip
+bash array all
+bash array at index
+bash array concat
+bash array contains
+bash array declare
+bash array delete at
+bash array delete
+bash array filter
+bash array iterate
+bash array forEach
+bash array length
+bash array print
+bash echo array
+bash array push
+bash array add
+bash array slice
+bash array range
+bash array replace
+bash array reverse
+bash array set element
+bash command failure check
+bash cmd failure check
+bash hide command error
+bash don't show command error
+bash if command exists
+bash if cmd exists
+bash command nice
+bash cmd nice
+bash command renice
+bash cmd renice
+bash command
+bash cmd
+bash command substitution
+bash cmd substitution
+bash command success check
+bash cmd success check
+bash crypto base64 decode
+bash crypto base64 encode
+bash crypto hash
+bash date now dayOfMonth
+bash date now dayOfWeek
+bash date now dayOfYear
+bash date now short
+bash date now monthName
+bash date now monthNumber
+bash date now UTC
+bash date now year
+bash event CTRL+C
+bash event terminated
+bash event EXIT
+bash iterate directories
+bash directory create nested
+bash directory create
+bash directory delete nested
+bash directory remove nested
+bash file delete
+bash file remove
+bash file read
+bash file search
+bash search in files
+bash find in files
+bash file write multiline sudo
+bash file write multiline
+bash file write
+bash iterate files
+bash file find
+bash directory find
+bash if directory exists
+bash if file executable
+bash if file link
+bash if file exists
+bash if file not empty
+bash if file readable
+bash if file writeable
+bash if file newer
+bash if file older
+bash if file =
+bash if path exists
+bash remove old/new files/directories
+bash if float =
+bash if double =
+bash if float >=
+bash if double >=
+bash if float >
+bash if double >
+bash if float <=
+bash if double <=
+bash if float <
+bash if double <
+bash if float !=
+bash if double !=
+bash fn animation animate
+bash fn animation pacman
+bash fn banner color
+bash fn banner simple
+bash fn import
+bash fn options
+bash fn input choice
+bash fn checkbox
+bash fn input multichoice
+bash fn math average
+bash fn math factorial
+bash fn math fibonacci series
+bash fn math fibonacci
+bash fn math product
+bash fn math sum
+bash fn progress
+bash fn scan local
+bash fn time format seconds
+bash fn urldecode
+bash fn urlencode
+bash fn version compare
+bash fn semver compare
+bash fx animation animate
+bash fx animation pacman
+bash fx banner color
+bash fx banner simple
+bash fx import
+bash fx options
+bash fx input choice
+bash fx checkbox
+bash fx input multichoice
+bash fx math fibonacci
+bash fx math average
+bash fx math factorial
+bash fx math fibonacci series
+bash fx math product
+bash fx math sum
+bash fx progress
+bash fx scan local
+bash fx time format seconds
+bash fx urldecode
+bash fx urlencode
+bash fx version compare
+bash fx semver compare
+bash ftp delete file
+bash ftp download
+bash ftp list
+bash ftp rename
+bash ftp upload
+bash function arguments
+bash func args
+bash function arguments count
+bash func args count
+bash function
+bash func
+bash function return value
+bash func return value
+bash func ret val
+bash git branch create
+bash git branch delete local
+bash git branch delete remote
+bash git branch list
+bash git branch push
+bash git branch rename
+bash git changes revert
+bash git clone branch https
+bash git clone branch
+bash git clone https
+bash git clone
+bash git commit list notPushed
+bash git commit search
+bash git commit undo
+bash git commit
+bash git config list
+bash git config set
+bash git patch apply
+bash git patch create
+bash git remote list
+bash git remote urlAdd https
+bash git remote url add https
+bash git remote urlAdd
+bash git remote url add
+bash git remote urlAdd ssh
+bash git remote url add ssh
+bash git remote urlChange https
+bash git remote url change https
+bash git remote urlChange
+bash git remote url change
+bash git remote urlChange ssh
+bash git remote url change ssh
+bash git tag commit
+bash git commit tag
+bash git tag list
+bash git tag remote delete
+bash git tag remote push
+bash http cookie
+bash http download
+bash http GET
+bash http DELETE
+bash http header
+bash http POST file
+bash http POST
+bash http PUT
+bash input password
+bash input text
+bash ask question
+bash if int =
+bash if int >=
+bash if int >
+bash if int <=
+bash if int <
+bash if int !=
+bash for ij
+bash for i
+bash for in collection
+bash for in column
+bash for in range
+bash if
+bash iff not
+bash iff
+bash loop infinite
+bash switch case
+bash loop until
+bash loop while
+bash ip local IPs
+bash ip info
+bash ip public
+bash math +
+bash math const 𝛾
+bash math const e
+bash math const Ω
+bash math const ϕ
+bash math const π
+bash math --
+bash math /=
+bash math /
+bash expr
+bash arithmetic
+bash math ++
+bash let
+bash math -=
+bash math %=
+bash math %
+bash math *=
+bash math *
+bash math +=
+bash math ^
+bash math 0.00
+bash math random
+bash math √
+bash math sqrt
+bash math -
+bash am I not root
+bash am I not sudo
+bash am I root
+bash am I sudo
+bash animation frame
+bash argument parsing
+bash parse args
+bash echo text
+bash print text
+bash echo variable
+bash print variable
+bash exit code
+bash os is
+bash region
+bash section
+bash shebang
+bash bash
+bash first line
+bash sleep
+bash stopwatch elapsed
+bash stopwatch start
+bash stopwatch stop
+bash summary
+bash timeout
+bash color black
+bash color blue
+bash color cyan
+bash color green
+bash color magenta
+bash color red
+bash color white
+bash color yellow
+bash format bold
+bash format dim
+bash format italic
+bash format reverse
+bash process ID(s)
+bash process instances
+bash process kill
+bash process list all
+bash process Name by ID
+bash string concat
+bash string + string
+bash string contains
+bash if string contains
+bash string indexOf
+bash if string empty
+bash if string =
+bash string equal
+bash if string not empty
+bash if string !=
+bash string not equal
+bash string length
+bash string random
+bash string replace
+bash string reverse
+bash string substring count
+bash string substring frequency
+bash string substring
+bash string toLower
+bash string toUpper
+bash string trim all
+bash string trim left
+bash string trim right
+bash string trim
+bash system distro codename
+bash system distro name
+bash system distro version
+bash system kernel name
+bash system kernel release
+bash system memory info
+bash system processor architecture
+bash system cpu architecture
+bash system cpu arch
+bash system processor count
+bash system cpu count
+bash system processor model
+bash system cpu model
+bash system processor type
+bash system cpu type
+bash service manage
+bash systemd manage
+bash system uptime seconds
+bash system uptime
+bash time seconds epoch
+bash time now local
+bash time now UTC
+bash variable assign
+bash variable set
+bash variable default value
+bash assign if empty
+bash var
+bash variable read
+bash variable expand
+
 
 
 
