@@ -20,6 +20,10 @@
 			"language": "cpp",
 			"path": "./snippets/cpp.json"
 			}
+            {
+                "language": "c",
+                "path": "./snippets/c_time.json"
+            }
 		]
 	},
     "galleryBanner": { 

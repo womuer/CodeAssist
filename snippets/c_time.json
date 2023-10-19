@@ -1,0 +1,168 @@
+{
+    "c_timeval_addMsecs": {
+        "prefix": "timeval_addMsecs",
+        "body": [
+            "/**",
+            " * Add a number of milliseconds to a timeval and replace the",
+            " * existing timeval with the new value.",
+            " */",
+            "void timeval_addMsecs(struct timeval *a, uint32_t msecs) {",
+            "int uSecs = (msecs%1000) * 1000 + a->tv_usec;",
+            "a->tv_usec = uSecs % 1000000;",
+            "a->tv_sec += msecs/1000 + uSecs/1000000;",
+            "} // addMsecs"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_addMsecs": {
+        "prefix": "时间给定时间添加毫秒",
+        "body": [
+            "/**",
+            " * Add a number of milliseconds to a timeval and replace the",
+            " * existing timeval with the new value.",
+            " */",
+            "void timeval_addMsecs(struct timeval *a, uint32_t msecs) {",
+            "int uSecs = (msecs%1000) * 1000 + a->tv_usec;",
+            "a->tv_usec = uSecs % 1000000;",
+            "a->tv_sec += msecs/1000 + uSecs/1000000;",
+            "} // addMsecs"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_toMsecs": {
+        "prefix": "timeval_toMsecs",
+        "body": [
+            "/**",
+            " * Convert a timeval into the number of msecs.",
+            " */",
+            "uint32_t timeval_toMsecs(struct timeval *a) {",
+            "return a->tv_sec * 1000 + a->tv_usec/1000;",
+            "} // timeval_toMsecs"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_toMsecs": {
+        "prefix": "时间转毫秒",
+        "body": [
+            "/**",
+            " * Convert a timeval into the number of msecs.",
+            " */",
+            "uint32_t timeval_toMsecs(struct timeval *a) {",
+            "return a->tv_sec * 1000 + a->tv_usec/1000;",
+            "} // timeval_toMsecs"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_difference": {
+        "prefix": "timeval_difference",
+        "body": [
+            "struct timeval c_timeval_difference(struct timeval *a, struct timeval *b) {",
+            "   struct timeval result;",
+            "   result.tv_sec = a->tv_sec - b->tv_sec;",
+            "   result.tv_usec = a->tv_usec - b->tv_usec;",
+            "   if (a->tv_usec < b->tv_usec) {",
+            "   result.tv_sec -= 1;",
+            "   result.tv_usec += 1000000;",
+            "   }",
+            "return result;",
+            "} // c_timeval_difference"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_difference": {
+        "prefix": "时间差",
+        "body": [
+            "struct timeval c_timeval_difference(struct timeval *a, struct timeval *b) {",
+            "   struct timeval result;",
+            "   result.tv_sec = a->tv_sec - b->tv_sec;",
+            "   result.tv_usec = a->tv_usec - b->tv_usec;",
+            "   if (a->tv_usec < b->tv_usec) {",
+            "   result.tv_sec -= 1;",
+            "   result.tv_usec += 1000000;",
+            "   }",
+            "return result;",
+            "} // c_timeval_difference"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_add": {
+        "prefix": "timeval_add_timeval",
+        "body": [
+            "struct timeval timeval_add(struct timeval *a, struct timeval *b) {",
+            "    struct timeval result;",
+            "    result.tv_sec = a->tv_sec + b->tv_sec;",
+            "    result.tv_usec = a->tv_usec + b->tv_usec;",
+            "    if (result.tv_usec >= 1000000) {",
+            "        result.tv_sec += 1;",
+            "        result.tv_usec -= 1000000;",
+            "    }",
+            "    return result;",
+            "} // timeval_add"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_add": {
+        "prefix": "时间两个时间相加",
+        "body": [
+            "struct timeval timeval_add(struct timeval *a, struct timeval *b) {",
+            "    struct timeval result;",
+            "    result.tv_sec = a->tv_sec + b->tv_sec;",
+            "    result.tv_usec = a->tv_usec + b->tv_usec;",
+            "    if (result.tv_usec >= 1000000) {",
+            "        result.tv_sec += 1;",
+            "        result.tv_usec -= 1000000;",
+            "    }",
+            "    return result;",
+            "} // timeval_add"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_durationFromNow": {
+        "prefix": "timeval_durationFromNow",
+        "body": [
+            "uint32_t timeval_durationFromNow(struct timeval *a) {",
+            "    struct timeval b;",
+            "    gettimeofday(&b, NULL);",
+            "    struct timeval delta = timeval_sub(a, &b);",
+            "    if (delta.tv_sec < 0) {",
+            "        return 0;",
+            "    }",
+            "    return timeval_toMsecs(&delta);",
+            "    // assuming that a is later than b, then the result is a-b",
+            "} // timeval_durationFromNow"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_durationFromNow": {
+        "prefix": "timeval_durationFromNow",
+        "body": [
+            "uint32_t timeval_durationFromNow(struct timeval *a) {",
+            "    struct timeval b;",
+            "    gettimeofday(&b, NULL);",
+            "    struct timeval delta = timeval_difference(a, &b);",
+            "    if (delta.tv_sec < 0) {",
+            "        return 0;",
+            "    }",
+            "    return timeval_toMsecs(&delta);",
+            "    // assuming that a is later than b, then the result is a-b",
+            "} // timeval_durationFromNow"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "c_timeval_durationFromNow": {
+        "prefix": "时间与当前时间差值",
+        "body": [
+            "uint32_t timeval_durationFromNow(struct timeval *a) {",
+            "    struct timeval b;",
+            "    gettimeofday(&b, NULL);",
+            "    struct timeval delta = timeval_difference(a, &b);",
+            "    if (delta.tv_sec < 0) {",
+            "        return 0;",
+            "    }",
+            "    return timeval_toMsecs(&delta);",
+            "    // assuming that a is later than b, then the result is a-b",
+            "} // timeval_durationFromNow"
+        ],
+        "description": "Code snippet for switch statement"
+    }
+}
