@@ -4308,6 +4308,41 @@
         ],
         "description": "Code snippet for strremoveSpaces statement"
     },
+    "strlen": {
+        "prefix": "strlen",
+        "body": [
+            "strlen(&str) == 0;"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "strlen": {
+        "prefix": "字符串长度",
+        "body": [
+            "strlen(&str) == 0;"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "strcmp": {
+        "prefix": "strcmp",
+        "body": [
+            "strcmp(&str1, &str2) == 0;"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "strcmp": {
+        "prefix": "字符串比较",
+        "body": [
+            "strcmp(&str1, &str2) == 0;"
+        ],
+        "description": "Code snippet for switch statement"
+    },
+    "sprintf": {
+        "prefix": "sprintf",
+        "body": [
+            "sprintf(&str, \"%s\", &str2);"
+        ],
+        "description": "Code snippet for switch statement"
+    },
     "switch": {
         "prefix": "switch",
         "body": [
