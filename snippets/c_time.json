@@ -134,22 +134,6 @@
         "description": "Code snippet for switch statement"
     },
     "c_timeval_durationFromNow": {
-        "prefix": "timeval_durationFromNow",
-        "body": [
-            "uint32_t timeval_durationFromNow(struct timeval *a) {",
-            "    struct timeval b;",
-            "    gettimeofday(&b, NULL);",
-            "    struct timeval delta = timeval_difference(a, &b);",
-            "    if (delta.tv_sec < 0) {",
-            "        return 0;",
-            "    }",
-            "    return timeval_toMsecs(&delta);",
-            "    // assuming that a is later than b, then the result is a-b",
-            "} // timeval_durationFromNow"
-        ],
-        "description": "Code snippet for switch statement"
-    },
-    "c_timeval_durationFromNow": {
         "prefix": "时间与当前时间差值",
         "body": [
             "uint32_t timeval_durationFromNow(struct timeval *a) {",
