@@ -71,6 +71,22 @@
             {
                 "language": "jade",
                 "path": "./snippets/pug.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_base.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_comprehension.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_tkinter.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_unittest.json"
             }
 		]
 	},
