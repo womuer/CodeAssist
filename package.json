@@ -2,8 +2,8 @@
     "name": "CodeAssistSnippets",
     "publisher": "Omer",
     "displayName": "CodeAssist Snippets",
-    "description": "Code snippets for C/C++",
-    "version": "0.0.7",
+    "description": "Code snippets for C/C++,bash,vue and python",
+    "version": "0.0.9",
     "engines": {
 		"vscode": "^1.78.2"
 	},
@@ -83,6 +83,10 @@
             {
                 "language": "python",
                 "path": "./snippets/python_tkinter.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_util.json"
             },
             {
                 "language": "python",
