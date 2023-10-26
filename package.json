@@ -2,8 +2,8 @@
     "name": "CodeAssistSnippets",
     "publisher": "Omer",
     "displayName": "CodeAssist Snippets",
-    "description": "Code snippets for C/C++",
-    "version": "0.0.5",
+    "description": "Code snippets for C/C++,bash,vue and python",
+    "version": "0.0.9",
     "engines": {
 		"vscode": "^1.78.2"
 	},
@@ -27,6 +27,70 @@
             {
                 "language": "shellscript",
                 "path": "./snippets/bash_sn.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/pug.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_base.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_comprehension.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_tkinter.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_util.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python_unittest.json"
             }
 		]
 	},
