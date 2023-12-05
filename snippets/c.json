@@ -4343,10 +4343,16 @@
         ],
         "description": "Code snippet for switch statement"
     },
-    "switch": {
-        "prefix": "switch",
+    "doxygen": {
+        "prefix": "doxygen",
         "body": [
-            "swi"
+            "/**",
+            "* @brief ",
+            "* @ingroup ",
+            "* @param ",
+            "* @param ",
+            "* @return ",
+            "*/"
         ],
         "description": "Code snippet for switch statement"
     },
